@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="004791266f1043cf8e76a75de6db030a" Name="Diagram1">
+        <EntityTypeShape EntityType="gr691_fnvModel.Client" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Dishes" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Drink" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Employeess" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Positions" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Request" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Request_Dishes" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Request_Drink" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Request_Employee" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Role" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.Userss" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.WorkShifts" Width="1.5" PointX="3" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="gr691_fnvModel.WorkShifts_Employee" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request__FK_Clie__6F212F46" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_D__FK_Di__78AA9980" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_D__FK_Dr__7E6372D6" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Employees__FK_Po__62BB5861" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_E__FK_Em__72F1C02A" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Userss__FK_Emplo__6A5C7A29" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__WorkShift__FK_Em__668BE945" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_D__FK_Re__77B67547" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_D__FK_Re__7D6F4E9D" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Request_E__FK_Re__71FD9BF1" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__Userss__FK_Role__696855F0" ManuallyRouted="false" />
+        <AssociationConnector Association="gr691_fnvModel.FK__WorkShift__FK_Wo__6597C50C" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
