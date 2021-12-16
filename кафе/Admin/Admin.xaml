@@ -39,7 +39,12 @@
             </TabItem>
             <TabItem Header="&#10;Заказы&#10;">
                 <Grid>
-
+                    <DataGrid Grid.RowSpan="3"
+                             >
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Binding="{Binding Name}" Header="Наименование"/>
+                        </DataGrid.Columns>
+                    </DataGrid>
                 </Grid>
             </TabItem>
             <TabItem Header="&#10;Смены&#10;">
