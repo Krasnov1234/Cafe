@@ -5,6 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:кафе.Admin"
         mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+
         Title="Admin" Height="450" Width="800">
     <Grid>
         <TabControl TabStripPlacement="Left" >
