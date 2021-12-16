@@ -34,5 +34,16 @@ namespace кафе
         {
 
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            if (login.Text == "1" && password.Password == "1")
+            {
+                Hide();
+                Admin.Admin admin  = new Admin.Admin();
+                admin.Show();
+                Close();
+            }
+        }
     }
 }

@@ -23,5 +23,11 @@ namespace кафе.Admin
         {
             InitializeComponent();
         }
+
+        private void Window_Loaded(object sender, RoutedEventArgs e)
+        {
+            Entities entities = new Entities();
+            dgEmployee.ItemsSource = entities.Positions.ToList();
+        }
     }
 }
