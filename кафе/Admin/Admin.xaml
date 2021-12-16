@@ -28,7 +28,8 @@
                     </Grid.RowDefinitions>
 
                     <DataGrid Grid.RowSpan="3"
-                              x:Name="dgEmployee">
+                              x:Name="dgEmployee"
+                              AutoGenerateColumns="False">
                         <DataGrid.Columns>
                             <DataGridTextColumn Binding="{Binding Name}" Header="Наименование"/>
                         </DataGrid.Columns>
