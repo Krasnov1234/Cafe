@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="035d13122c6a4adfa125ff509e818fc3" Name="Diagram1">
+        <EntityTypeShape EntityType="DatabaseModel.Client" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Dishes" Width="1.5" PointX="3" PointY="7" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Drink" Width="1.5" PointX="3" PointY="1" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Employeess" Width="1.5" PointX="3" PointY="10.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Positions" Width="1.5" PointX="0.75" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Request" Width="1.5" PointX="3" PointY="3.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Request_Dishes" Width="1.5" PointX="5.25" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Request_Drink" Width="1.5" PointX="5.25" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Request_Employee" Width="1.5" PointX="5.25" PointY="6.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Role" Width="1.5" PointX="3" PointY="15.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.Userss" Width="1.5" PointX="5.25" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.WorkShifts" Width="1.5" PointX="3" PointY="18" IsExpanded="true" />
+        <EntityTypeShape EntityType="DatabaseModel.WorkShifts_Employee" Width="1.5" PointX="5.25" PointY="13.875" IsExpanded="true" />
+        <AssociationConnector Association="DatabaseModel.FK__Request__FK_Clie__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_D__FK_Di__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_D__FK_Dr__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Employees__FK_Po__29572725" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_E__FK_Em__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Userss__FK_Emplo__30F848ED" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__WorkShift__FK_Em__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_D__FK_Re__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_D__FK_Re__440B1D61" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Request_E__FK_Re__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__Userss__FK_Role__300424B4" ManuallyRouted="false" />
+        <AssociationConnector Association="DatabaseModel.FK__WorkShift__FK_Wo__2C3393D0" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
