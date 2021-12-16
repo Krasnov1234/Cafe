@@ -26,7 +26,7 @@ namespace кафе.Admin
 
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
-             entities = new Entities();
+            Entities entities = new Entities();
             dgEmployee.ItemsSource = entities.Positions.ToList();
         }
     }
